@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- *************css links************ -->
+    <link rel="stylesheet" href="./css/stye.css" />
+
+    <!-- ***********css Bootsrtap link************* -->
+    <link
+      rel="stylesheet"
+      href="./bootstrap-4.6.0-dist/css/bootstrap.min.css"
+    />
+
+    <!-- ************Bootsrtap js Links********* -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+
+    <!-- ***********Font Aweosme Link********** -->
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.15.2-web/css/all.min.css"
+    />
+
+    <title>WebDev Home</title>
+  </head>
+  <body>
+    <!-- **********Top Header*********** -->
+    <div class="container-fluid bg-light text-dark">
+      <div class="row">
+        <div class="col-md-4 col-xs-12 text-center pt-3 pb-3">
+          <i class="fas fa-envelope fa-2x text-dark"></i>
+          <p class="h4" style="display: inline" ;>tarunkumar7973@gmail.com</p>
+        </div>
+
+        <div class="col-md-4 col-xs-12 text-center pt-3 pb-3">
+          <i class="fas fa-phone-alt fa-2x text-dark"></i>
+          <p class="h4" style="display: inline" ;>+91-9115830142</p>
+        </div>
+
+        <div class="col-md-4 col-xs-12 text-center pt-3 pb-3">
+          <a href="#"
+            ><i class="fab fa-facebook fa-2x text-primary mr-5"></i
+          ></a>
+          <a href="#"
+            ><i class="fab fa-instagram text-danger fa-2x mr-5"></i
+          ></a>
+          <a href="#"><i class="fab fa-twitter fa-2x text-primary"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- **********Top Header End*********** -->
+
+    <!-- ***************carousel start**************** -->
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./images/code2.jpg"
+            class="img-fluid carouselImage"
+            alt=" code2 pic"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./images/web.jpg"
+            class="img-fluid carouselImage"
+            alt="web pic"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./images/code.jpg"
+            class="img-fluid carouselImage"
+            alt="code pic"
+          />
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+    <!-- ***************carousel End**************** -->
+
+    <!-- ************Navbar start*********** -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+      <button
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#menu"
+        type="button"
+      >
+        <span class="navbar-toggle-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <a href="index.html" class="navbar-brand">WebDev</a>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" target="_blank" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="technologies.html" target="_blank" class="nav-link"
+              >Technologies</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" target="_blank" class="nav-link"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- ************Navbar end*********** -->
+
+    <!-- *******About us section start******* -->
+    <div class="container">
+      <div class="row bg-whitesmoke">
+        <div class="col-12 text-center">
+          <h1 class="mt-5 display-3">About Us</h1>
+          <hr
+            class="mx-5"
+            style="height: 2px; border-width: 0; background-color: red"
+          />
+        </div>
+
+        <div class="col-md-6 col-xs-12">
+          <img
+            src="./images/about.jpg"
+            class="img-fluid aboutImage mb-3"
+            alt="About us image"
+            style="width: 100%; height: 400px"
+          />
+        </div>
+        <div class="col-md-6 col-xs-12">
+          <h4 class="text-center mt-5">About Our Company</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+            voluptate assumenda eius quam obcaecati quibusdam odit vitae culpa
+            ipsam corporis, nihil tenetur, provident quae, dicta veritatis
+            dolores reiciendis deserunt. Veniam molestias aperiam inventore,
+            incidunt nemo ea soluta!
+          </p>
+          <p>
+            Ducimus soluta, consequuntur deleniti corporis voluptates explicabo
+            veritatis, qui ipsa odio dolores excepturi! Lorem ipsum dolor sit
+            amet, consectetur adipisicing elit. Dolore, alias.
+          </p>
+
+          <a
+            href="about.html"
+            target="_blank"
+            class="btn btn-outline-primary mb-3"
+            >Read More....</a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- *******About us section end******* -->
+
+    <!-- *******Technology section starts******* -->
+    <div class="container-fluid bg-dark text-white">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1 class="display-3">
+            Technology WE Use
+            <i class="fas fa-hand-point-down text-warning"></i>
+          </h1>
+          <hr
+            class="mx-5"
+            style="height: 2px; border-width: 0; background-color: red"
+          />
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-3 col-xs-12 mb-3">
+          <div class="card" style="width: 100%">
+            <!-- <div class="card"> -->
+            <img
+              class="card-img-top img-fluid"
+              src="./images/html1.png"
+              alt="html5 image"
+              style="width: 100%; height: 180px"
+            />
+            <div class="card-body">
+              <h4 class="card-title text-center text-dark">HTML5</h4>
+              <p class="card-text text-dark">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
+                inventore ipsam? Praesentium neque debitis.
+              </p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-12 mb-3">
+          <div class="card" style="width: 100%">
+            <img
+              class="card-img-top img-fluid"
+              src="./images/css.png"
+              alt="css image"
+              style="width: 100%; height: 180px"
+            />
+            <div class="card-body">
+              <h4 class="card-title text-center text-dark">CSS3</h4>
+              <p class="card-text text-dark">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt
+                quaerat voluptates a, amet minus modi!
+              </p>
+              <a href="#" class="btn btn-primary btn-center">Read More </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-12 mb-3">
+          <div class="card" style="width: 100%">
+            <img
+              class="card-img-top img-fluid"
+              Profile
+              src="./images/js.png"
+              alt="js image"
+              style="width: 100%; height: 180px"
+            />
+            <div class="card-body">
+              <h4 class="card-title text-center text-dark">JAVASCRIPT</h4>
+              <p class="card-text text-grey">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Pariatur quas repudiandae, eligendi expedita est quidem.
+              </p>
+              <a href="#" class="btn btn-primary">Read More </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-12 mb-3">
+          <div class="card" style="width: 100%">
+            <img
+              class="card-img-top img-fluid"
+              Profile
+              src="./images/git.png"
+              alt="js image"
+              style="width: 100%; height: 180px"
+            />
+            <div class="card-body">
+              <h4 class="card-title text-center text-dark">JAVASCRIPT</h4>
+              <p class="card-text text-grey">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Pariatur quas repudiandae, eligendi expedita est quidem.
+              </p>
+              <a href="#" class="btn btn-primary">Read More </a>
+            </div>
+          </div>
+        </div>
+        <div class="container text-center">
+          <a
+            href="technologies.html"
+            target="_blank"
+            class="btn btn-outline-light text-center mb-3"
+            >Read More
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- *******Technology section end******* -->
+
+    <!-- *******Testimonial section starts******* -->
+    <div class="container-fluid bg-whitesmoke text-dark">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1 class="display-3">
+            Testimonials <i class="fas fa-smile-beam text-warning"></i>
+          </h1>
+          <hr
+            class="mx-5"
+            style="height: 2px; border-width: 0; background-color: red"
+          />
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-3 col-xs-12 mb-3">
+          <div class="card" style="width: 100%">
+            <div class="text-center pt-3">
+              <img
+                class="card-img-top img-fluid text-center"
+                src="./images/profile1.jpg"
+                alt="profile1 image"
+                style="width: 25%; border-radius: 50%"
+              />
+            </div>
+
+            <div class="card-body">
+              <h4 class="card-title text-center text-dark">SUNNY</h4>
+              <p class="card-text text-dark">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
+                inventore ipsam? Praes..
+              </p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-12 mb-3">
+          <div class="card" style="width: 100%">
+            <div class="text-center pt-3">
+              <img
+                class="card-img-top img-fluid text-center"
+                src="./images/profile2.jpg"
+                alt="profile1 image"
+                style="width: 25%; border-radius: 50%"
+              />
+            </div>
+
+            <div class="card-body">
+              <h4 class="card-title text-center text-dark">KHURANA</h4>
+              <p class="card-text text-dark">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt
+                quaerat voluptates a, amet minus modi!
+              </p>
+              <a href="#" class="btn btn-primary">Read More </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-12 mb-3">
+          <div class="card" style="width: 100%">
+            <div class="text-center pt-3">
+              <img
+                class="card-img-top img-fluid text-center"
+                src="./images/profile3.jpg"
+                alt="profile1 image"
+                style="width: 25%; border-radius: 50%"
+              />
+            </div>
+
+            <div class="card-body">
+              <h4 class="card-title text-center text-dark">MEHAK</h4>
+              <p class="card-text text-grey">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Pariatur quas repudiandae, eligendi expedita est quidem.
+              </p>
+              <a href="#" class="btn btn-primary">Read More </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-12 mb-3">
+          <div class="card" style="width: 100%">
+            <div class="text-center pt-3">
+              <img
+                class="card-img-top img-fluid text-center"
+                src="./images/profile4.jpg"
+                alt="profile1 image"
+                style="width: 25%; border-radius: 50%"
+              />
+            </div>
+
+            <div class="card-body">
+              <h4 class="card-title text-center text-dark">DEEP</h4>
+              <p class="card-text text-grey">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Pariatur quas repudiandae, eligendi expedita est quidem.
+              </p>
+              <a href="#" class="btn btn-primary">Read More </a>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="container text-center">
+          <a href="#" class="btn btn-outline-primary text-center my-2"
+            >Read More
+          </a>
+        </div> -->
+      </div>
+    </div>
+    <!-- *******Testimonial section ends******* -->
+
+    <!-- *******Footer section starts******* -->
+    <footer>
+      <div class="container-fluid bg-dark text-light">
+        <div class="row">
+          <div class="col-md-6 col-xs-12 my-2 text-center">
+            <p class="h5">
+              &copy;<a href="index.html" class="footer1">WebDev2021</a>
+            </p>
+          </div>
+          <div class="col-md-6 col-xs-12 text-center my-2">
+            <p class="h5">Made By:<span class="footer1"> Tarun Kumar</span></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- *******Footer section ends******* -->
+  </body>
+</html>

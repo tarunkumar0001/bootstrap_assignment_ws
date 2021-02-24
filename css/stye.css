@@ -1,0 +1,30 @@
+/* * {
+  padding: 0 !important;
+  margin: 0 !important;
+} */
+
+.text-grey {
+  color: grey;
+}
+
+.carouselImage {
+  width: 100%;
+  height: 91vh !important;
+}
+
+.aboutImage {
+  width: 100%;
+  height: auto;
+}
+
+.bg-whitesmoke {
+  background-color: whitesmoke;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.footer1 {
+  color: red;
+}
